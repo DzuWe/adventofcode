@@ -1,0 +1,9 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "git@github.com:DzuWe/adventofcode.git",
+  "author": "Dmitriy Dzyuba <tzar4eg@gmail.com>",
+  "license": "MIT"
+}
