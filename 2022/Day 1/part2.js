@@ -2,7 +2,6 @@ import fs from 'fs'
 import readline from 'readline'
 
 let max = Array(3).fill(0)
-console.log(max)
 let tempMax = 0
 
 const reader = readline.createInterface({
@@ -17,7 +16,6 @@ reader.on('line', (line) => {
 })
 
 reader.on('close', () => console.log('Answer is: %s', max.reduce((acc, el) => acc + el, 0)))
-
 
 function updateArrayIfNeeded (num) {
   if(num > max[max.length - 1]) {
