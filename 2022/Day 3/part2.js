@@ -25,9 +25,8 @@ function getRepeatedItem(group) {
   let [first, second, third] = group
   for (let i = 0; i < first.length; i++) {
     const char = first[i]
-    if(second.includes(char) && third.includes(char)) {
+    if (second.includes(char) && third.includes(char)) {
       return char
     }
   }
-
 }
