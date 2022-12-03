@@ -1,8 +1,8 @@
-import { rl as _rl } from '../common/linereader.js'
+import rl from '../common/linereader.js'
 
 let sum = 0
 
-_rl(
+rl(
   './input/input.txt',
   (line) => {
     const [figure, condition] = line.split(' ')

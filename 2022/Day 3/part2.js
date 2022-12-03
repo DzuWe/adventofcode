@@ -1,4 +1,4 @@
-import { rl } from '../common/linereader.js'
+import rl from '../common/linereader.js'
 
 const priority = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 let sum = 0

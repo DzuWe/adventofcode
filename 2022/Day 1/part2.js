@@ -1,9 +1,9 @@
-import { rl as _rl } from '../common/linereader.js'
+import rl from '../common/linereader.js'
 
 let max = Array(3).fill(0)
 let tempMax = 0
 
-_rl(
+rl(
   './input/input.txt',
   (line) => {
     if (!line.trim()) {
