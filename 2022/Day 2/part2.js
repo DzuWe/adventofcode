@@ -1,18 +1,15 @@
-import fs from 'fs'
-import readline from 'readline'
-
-const rl = readline.createInterface({
-  input: fs.createReadStream('./input/input.txt'),
-})
+import { rl as _rl } from '../common/linereader.js'
 
 let sum = 0
 
-rl.on('line', (line) => {
-  const [figure, condition] = line.split(' ')
-  sum += getScore(figure, condition)
-})
-
-rl.on('close', () => console.log(sum))
+_rl(
+  './input/input.txt',
+  (line) => {
+    const [figure, condition] = line.split(' ')
+    sum += getScore(figure, condition)
+  },
+  () => console.log(sum)
+)
 
 // [figureWeight, winFigureWeight, loseFigureWeight]
 function getFigureWeight(figure) {
