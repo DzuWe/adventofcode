@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "git@github.com:DzuWe/adventofcode.git",
   "author": "Dmitriy Dzyuba <tzar4eg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "day7": "ts-node ./2022/Day\\ 7/job.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "ts-node": "^10.9.1"
+  }
 }
