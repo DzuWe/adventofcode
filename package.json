@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "day7": "ts-node ./2022/Day\\ 7/job.ts",
-    "day8": "ts-node ./2022/Day\\ 8/solution.ts"
+    "day8": "ts-node ./2022/Day\\ 8/solution.ts",
+    "day9": "ts-node ./2022/Day\\ 9/solution.ts"
   },
   "dependencies": {
     "typescript": "^4.9.3"
